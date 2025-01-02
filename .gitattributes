@@ -2,4 +2,8 @@
 *.sql linguist-language=SQL 
 
 # Tell GitHub Linguist to recognize .sh files as Shell (Bash) scripts
-*.sh linguist-language=Shell  
+*.sh linguist-language=Shell   
+
+#Tell GitHub Linguist to recognize .pdf and .docx files as documentation 
+*.pdf linguist-documentation
+*.docx linguist-documentation
