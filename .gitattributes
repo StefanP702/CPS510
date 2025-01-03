@@ -1,4 +1,9 @@
-# Ensure PDFs always stay as binary
-*.pdf binary 
+# Tell GitHub Linguist to recognize .sql files as SQL code
+*.sql linguist-language=SQL 
 
- 
+# Tell GitHub Linguist to recognize .sh files as Shell (Bash) scripts
+*.sh linguist-language=Shell   
+
+# Tell GitHub Linguist to recognize .pdf and .docx files as documentation 
+*.pdf linguist-document
+*.docx linguist-document
